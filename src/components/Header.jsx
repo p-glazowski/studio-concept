@@ -1,7 +1,8 @@
 const navigation = [
   { href: '#uslugi', label: 'Usługi' },
-  { href: '#o-projekcie', label: 'O projekcie' },
-  { href: '#informacje', label: 'Informacje' },
+  { href: '#o-nas', label: 'O nas' },
+  { href: '#opinie', label: 'Opinie' },
+  { href: '#rezerwacja', label: 'Wizyta' },
 ];
 
 export function Header() {
@@ -14,7 +15,7 @@ export function Header() {
         <nav aria-label="Nawigacja główna" className="hidden gap-8 text-sm lg:flex">
           {navigation.map((item) => <a key={item.href} className="py-3 hover:underline" href={item.href}>{item.label}</a>)}
         </nav>
-        <a className="inline-flex min-h-11 items-center border-b border-ink py-2 text-xs font-bold lg:text-sm" href="#o-projekcie">Zobacz projekt <span className="pl-2 lg:pl-[18px]" aria-hidden="true">↗</span></a>
+        <button type="button" className="inline-flex min-h-11 items-center border-b border-ink py-2 text-xs font-bold lg:text-sm">Umów wizytę <span className="pl-2 lg:pl-[18px]" aria-hidden="true">↗</span></button>
       </div>
       <nav aria-label="Nawigacja mobilna" className="flex justify-between gap-1 rounded-full bg-[#eae5db] px-2 text-sm lg:hidden">
         {navigation.map((item) => <a key={item.href} className="flex min-h-11 items-center rounded-full px-2 transition-colors duration-300 hover:bg-white/60 focus-visible:bg-white/60 motion-reduce:transition-none" href={item.href}>{item.label}</a>)}

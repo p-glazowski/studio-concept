@@ -2,7 +2,8 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
-import { ProjectNote } from './components/ProjectNote';
+import { Reviews } from './components/Reviews';
+import { Booking } from './components/Booking';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
     <>
       <a className="sr-only focus:not-sr-only focus:absolute focus:left-2.5 focus:top-2.5 focus:z-20 focus:bg-white focus:p-2.5" href="#tresc">Przejdź do treści</a>
       <Header />
-      <main id="tresc"><Hero /><About /><Services /><ProjectNote /></main>
+      <main id="tresc"><Hero /><About /><Services /><Reviews /><Booking /></main>
       <Footer />
     </>
   );

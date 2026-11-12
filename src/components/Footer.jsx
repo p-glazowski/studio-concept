@@ -6,8 +6,8 @@ export function Footer() {
         <a className="inline-flex min-h-11 items-center gap-2 text-sm text-[#c0b9ae] hover:underline" href="#start">Wróć na górę <span aria-hidden="true">↑</span></a>
       </div>
       <div className="mt-3 flex flex-col gap-1 text-xs text-[#aaa399] sm:flex-row sm:justify-between sm:gap-4">
-        <p>Koncepcja strony studia pielęgnacji</p>
-        <p>Studio Concept · Projekt demonstracyjny</p>
+        <p>Studio pielęgnacji dłoni i stóp</p>
+        <p>© Studio Concept</p>
       </div>
     </footer>
   );

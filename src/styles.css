@@ -14,7 +14,8 @@
 @layer base {
   html { scroll-behavior: smooth; }
   body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); line-height: 1.65; }
-  a:focus-visible { outline: 3px solid #ad8a43; outline-offset: 4px; }
+  button { cursor: pointer; }
+  a:focus-visible, button:focus-visible { outline: 3px solid #ad8a43; outline-offset: 4px; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 }
 

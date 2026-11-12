@@ -2,7 +2,7 @@
 
 A Polish-language portfolio concept for a fictional hand and foot care studio, built with React, Vite and Tailwind CSS.
 
-This is a design demonstration, not an operating business. Service descriptions are illustrative. The page has no booking, contact, map, social profile, or customer review integrations.
+This portfolio website presents a fictional studio with finished, customer-facing Polish copy. Service descriptions and anonymous testimonials are invented sample content, not claims about a real business or real customer reviews. Booking controls are intentionally inert buttons with no handlers, external links, forms or backend. No former client information is included.
 
 ## Development
 
@@ -13,7 +13,7 @@ npm run dev
 
 Open the local URL printed by Vite. Run `npm run build` to create a prerendered production build in `dist/`, and `npm run preview` to preview that build.
 
-Page sections are in `src/components/`. Edit illustrative service descriptions in `src/content.js`, and shared colours and typography in `src/styles.css`.
+Page sections are in `src/components/`. Edit service descriptions and fictional sample reviews in `src/content.js`, and shared colours and typography in `src/styles.css`.
 
 Decorative website images are tracked in `public/images/` and copied into the production build.
 
