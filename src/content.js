@@ -21,16 +21,16 @@ export const reviews = [
   {
     service: 'Manicure hybrydowy',
     quote: 'Piękny, delikatny efekt i ogromna staranność. Doceniam spokojną atmosferę i to, że nikt się nie spieszy. Dokładnie takiej chwili dla siebie potrzebowałam.',
-    author: 'Klientka studia',
+    author: 'Eliza B.',
   },
   {
     service: 'Pedicure',
     quote: 'Od pierwszej rozmowy czułam, że moje potrzeby są ważne. Wszystko zostało wyjaśnione, a stopy po zabiegu są zadbane i przyjemnie lekkie.',
-    author: 'Klientka studia',
+    author: 'Marta K.',
   },
   {
     service: 'Pielęgnacja dłoni',
     quote: 'Uważna pielęgnacja, dopracowany kształt paznokci i bardzo naturalny efekt. Miło trafić w miejsce, w którym liczą się również te najmniejsze detale.',
-    author: 'Klientka studia',
+    author: 'Natalia W.',
   },
 ];

@@ -2,7 +2,7 @@
 
 A Polish-language portfolio concept for a fictional hand and foot care studio, built with React, Vite and Tailwind CSS.
 
-This portfolio website presents a fictional studio with finished, customer-facing Polish copy. Service descriptions and anonymous testimonials are invented sample content, not claims about a real business or real customer reviews. Booking controls are intentionally inert buttons with no handlers, external links, forms or backend. No former client information is included.
+This portfolio website presents a fictional studio with finished, customer-facing Polish copy. Service descriptions and testimonials with fictional names are invented sample content, not claims about a real business or real customer reviews. Booking controls are intentionally inert buttons with no handlers, external links, forms or backend. The displayed phone number (+48 000 000 000) is an invalid placeholder; its call button is also intentionally inert and does not invoke a dialer. No former client information is included.
 
 ## Development
 
