@@ -12,7 +12,8 @@
 }
 
 @layer base {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+  section[id] { scroll-margin-top: 12px; }
   body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); line-height: 1.65; }
   button { cursor: pointer; }
   a:focus-visible, button:focus-visible { outline: 3px solid #ad8a43; outline-offset: 4px; }

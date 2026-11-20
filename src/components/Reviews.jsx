@@ -10,10 +10,10 @@ export function Reviews() {
         </div>
         <div>
           {reviews.map((review) => (
-            <figure key={review.service} className="py-6 first:pt-0 last:pb-0 lg:py-8">
-              <p className="mb-3 text-sm text-accent">{review.service}</p>
-              <blockquote className="max-w-[660px] font-display text-[23px] leading-snug lg:text-[28px]">„{review.quote}”</blockquote>
-              <figcaption className="mt-4 text-sm text-muted">{review.author}</figcaption>
+            <figure key={review.service} className="border-t border-[#d9d1c3] py-7 first:border-t-0 first:pt-0 last:pb-0 lg:py-8">
+              <p className="mb-3 text-xs font-bold tracking-[0.14em] text-accent uppercase">{review.service}</p>
+              <blockquote className="max-w-[660px] font-display text-[21px] leading-[1.4] lg:text-[28px] lg:leading-snug">„{review.quote}”</blockquote>
+              <figcaption className="mt-4 flex items-center gap-3 text-sm text-muted"><span aria-hidden="true" className="h-px w-6 bg-gold" />{review.author}</figcaption>
             </figure>
           ))}
         </div>
