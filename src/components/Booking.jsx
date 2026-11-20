@@ -1,4 +1,5 @@
 import { BookingButton } from './BookingButton';
+import { ArrowIcon } from './ArrowIcon';
 
 export function Booking() {
   return (
@@ -15,7 +16,7 @@ export function Booking() {
         <p className="max-w-[300px] text-sm leading-relaxed text-[#c8c1b5]">Nie musisz wiedzieć wszystkiego przed spotkaniem. Opowiedz nam, czego potrzebujesz — pomożemy dobrać zabieg i podpowiemy, jak zadbać o efekt w domu.</p>
         <button type="button" aria-label="Zadzwoń do nas: +48 000 000 000" className="mt-8 flex min-h-14 flex-col items-start gap-1 text-left text-[#eee8dc] hover:text-white">
           <span className="font-display text-[30px] leading-tight">+48 000 000 000</span>
-          <span className="inline-flex items-center gap-3 text-sm underline decoration-[#b7a27b] underline-offset-4">Zadzwoń do nas <span aria-hidden="true">↗</span></span>
+          <span className="inline-flex items-center gap-2 text-sm"><span className="underline decoration-[#b7a27b] underline-offset-4">Zadzwoń do nas</span><ArrowIcon className="h-3.5 w-3.5 text-[#c5ae82]" /></span>
         </button>
       </div>
     </section>

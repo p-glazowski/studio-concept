@@ -4,6 +4,8 @@ A Polish-language portfolio concept for a fictional hand and foot care studio, b
 
 This portfolio website presents a fictional studio with finished, customer-facing Polish copy. Service descriptions and testimonials with fictional names are invented sample content, not claims about a real business or real customer reviews. Booking controls are intentionally inert buttons with no handlers, external links, forms or backend. The displayed phone number (+48 000 000 000) is an invalid placeholder; its call button is also intentionally inert and does not invoke a dialer. No former client information is included.
 
+Designed and built by [glazowski-web.com](https://glazowski-web.com).
+
 ## Development
 
 ```sh
@@ -15,7 +17,7 @@ Open the local URL printed by Vite. Run `npm run build` to create a prerendered 
 
 Page sections are in `src/components/`. Edit service descriptions and fictional sample reviews in `src/content.js`, and shared colours and typography in `src/styles.css`.
 
-Decorative website images are tracked in `public/images/` and copied into the production build.
+Decorative website images are tracked in `public/images/` as compressed JPEGs and copied into the production build. Arrows are inline SVGs (`src/components/ArrowIcon.jsx`), not text characters, because iOS Safari renders `↗`/`↑` as emoji.
 
 ## GitHub Pages
 
